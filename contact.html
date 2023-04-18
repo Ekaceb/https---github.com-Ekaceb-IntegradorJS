@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="./img/galery/fabicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"; >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/formularios.css">
+</head>
+
+<body class="bodyLogin">
+
+    <form class="form__container"  id="contact-form" novalidate>
+      <a href="./index.html">  <img src="./img/login-register/contacto.webp"   alt="profile"  class="login" /> </a>
+        
+        <div class="form__field">
+          <input id="name" class="form__input" name="name"  type="text" placeholder="*Nombre" required>
+          <div class="error" id="error-name"></div>
+        </div>
+
+        <div class="form__field">
+          <input id="email" class="form__input" name="email" type="email" placeholder="*Email" required>
+          <div class="error" id="error-email"></div>
+        </div>
+
+        <div class="form__field">
+          <textarea id="message" name="message" placeholder="*Escriba su mensaje"  required></textarea>
+          <div class="error" id="error-message"></div>
+        </div>
+
+        <button class="form__submit__btn" type="submit">Enviar</button>
+        <div class="error" id="error-message"></div>
+      </form>
+   
+<script src="./JS/contact.js"></script>
+
+    
+</body>
+</html>

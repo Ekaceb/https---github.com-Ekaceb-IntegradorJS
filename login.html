@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Login </title>
+    <link rel="icon" href="./img/galery/fabicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"; >
+    <link rel="stylesheet" href="./CSS/formularios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bodyLogin">
+   
+    <main>
+         
+        <form class="form__container" id="register-form" novalidate>
+            
+            <a href="./index.html"> <img src="./img/register.png"   alt="profile"  class="login" /> </a>
+                               
+
+            <div class="form__field">
+                
+                <input id="username"  class="form__input" name="username" type="text" placeholder="*Usuario" autocomplete="off">
+                <i class="fa-solid fa-user"></i>
+                <div class="error" id="error-username"></div>
+            </div>  
+                
+            <div class="form__field">                   
+                <input id="password" class="form__input" name="password" type="password" placeholder="*contraseña" autocomplete="off">
+                <i class="fas fa-lock-open"></i>
+                <div class="error" id="error-password"></div>
+            </div>  
+                             
+                <input type="submit" class="form__submit__btn" value="Ingresá" href=""/>
+                
+                <span >No tenés cuenta?         <a class="button" href="resgiter.html" >Registrate</a> </span>
+              
+              
+            </div>
+        </form>
+     
+    </header>
+    </main>
+    <script src="./JS/login.js"></script>
+</body>
+</html> 

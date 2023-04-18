@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Integrador JS </title>
+    <link rel="icon" href="./img/galery/fabicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"; >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/mediaqueris.css">
+    <link rel="stylesheet" href="./CSS/formularios.css">
+ 
+    
+
+</head>
+
+<body class="">
+    
+    <header class="header">
+    
+       
+        <button class="open-menu btn-link" id="open" ><i class="fa-sharp fa-solid fa-bars"></i></button>     
+        <a href="#" ><h1 class="logo-nav" id="logo-index">SucuLindas</h1> </a>
+        <nav class="nav" id="nav">
+            
+          
+         
+           
+       
+            <button class="close-menu btn-link" id="close" ><i class="fa-sharp fa-regular fa-rectangle-xmark"></i></button>
+            <ul class="nav-list">
+             
+                <li > <a href="#about" > Nosotros </a></li>
+                <li > <a href="#alls" > Productos </a></li>
+                <li > <a href="#tips" > Tip's </a></li>
+                <li > <a href="./contact.html"  > Contacto </a></li>
+            
+            </ul>
+
+            <div class="container-link">
+
+                
+                <button class="btn-link btn-hover" > <a href="resgiter.html"> <img  src="./img/agregar-usuario.png" alt=""></a></button> 
+                <button class="btn-link btn-hover"> <a href="login.html">👤</a></button> 
+                <button class="btn-link btn-hover"> <a href="./carrito.html"> 🛒</a> </button>             
+            </div>  
+    
+        </nav>   
+    </header>
+        <main>
+            
+        <section class="hero" id="about">
+            
+            <div class=" gallery">
+                
+
+                <div class="panel motion" style="background-image: url(img/galery/logo1.jpg);">
+                    
+                </div>
+                <div class="panel" style="background-image: url(img/galery/gal1.jpg);">
+                </div> 
+                <div class="panel" style="background-image: url(img/galery/gal2.jpg);">
+                </div>         
+                           
+                <div class="panel" style="background-image: url(img/galery/gal3.jpg);"> 
+                
+                </div> 
+
+                <div class="panel" style="background-image: url(img/galery/gal4.jpg);">
+                
+                </div>
+                
+                <div class="panel" style="background-image: url(img/galery/gal5.jpg);">
+                </div>
+
+                <div class="panel"style="background-image: url(img/galery/gal6.jpg);"> 
+                   
+                </div>      
+            </div>
+        </section>
+        <section class="about">
+            <h3>Especialistas en las suculentas más raras, exóticas
+                y afines a un cultivo más acorde con la xerojardinería.</h3>
+               
+
+        </section>
+    
+
+        <section class="cart" id="cart">
+           
+            <div class="aside"> 
+         
+               <h1 class="logo-menu">🌿 🌵 </h1>      
+                    
+                    <ul class="menu">
+                        <li>
+                            <button id="alls" class="btn-menu btn-ctg active">👉 Todas</button>
+                            
+                        </li> 
+
+                        <li>
+                            <button id="sucus" class="btn-menu btn-ctg ">👉 Suculentas</button>
+                        </li>
+
+                        <li>
+                            <button id="cact" class="btn-menu btn-ctg"> 👉 Cactus </button>
+                        </li> 
+
+                        <li>
+                            <button id="terra" class="btn-menu btn-ctg">👉 Terrarios </button>
+                        </li>
+
+                        <li> <a class="btn-menu btn-buy active" href="./carrito.html">
+                            <i class="fa-solid fa-cart-shopping"></i><span class="number" id="number">👉 0</span></a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="render-products">
+
+                    <h2  class="title-primary" id="title-primary">Todas</h2>
+                                    
+                    <div id="container-products" class="products">                 
+                                <!-- Renderizo products -->
+
+                     </div>
+                </div>
+
+               
+            </div>
+           
+        </section>
+
+        <section class="tips" id="tips">
+            <div class="tips" >
+                <h3 class="titeTip">Riego</h3>
+                <p class="text-tips">El mejor modo de regar suculentas es con una regadera o, en su defecto, con una manguera que tenga la opción de simular el agua de lluvia. El único uso que haremos de un pulverizador será con suculentas que estemos propagando. Unos proyectos de plantas a los que, incluso, podemos rociar cada día.</p>
+            </div>
+            <div class="tips">
+                <h3 class="titeTip">Sol </h3>
+                <p class="text-tips">Tanto los cactus como las suculentas necesitan entre 4 a 8 horas de sol diariamente. Así que si piensas cultivarlos dentro de la casa, coloca tus plantas al lado de una ventana o en un lugar donde la luz sea bastante fuerte la mayor parte del día. Idealmente en un balcón o una terraza.</p>
+            </div>
+            
+        </section>
+        <footer>
+            
+            <div class="box-footer">
+                <hr><hr>
+                <a class="btn-link" href="./carrito.html">🛒</a>
+                <a class="btn-link" href="#home"><i class="fa-solid fa-shop"></i></a>
+                <a class="btn-link" href="#alls"><i class="fa-brands fa-facebook"></i></a>
+                <a class="btn-link" href="#alls"><i class="fa-brands fa-instagram"></i></a>
+                
+            </div>
+        
+        <div class="box-copyrigth">
+            <hr><hr>
+            <p>Todos los derechos reservados @2023
+                <b>SucuLindas</b>
+            </p>
+        </div>
+        </footer>
+    </main>
+     
+    <script src="./JS/data.js"></script>
+    <script src="./JS/main.js"></script>
+    <script src="./JS/cart.js"></script>
+    <script src="./JS/contact.js"></script>
+    <script src="./JS/register.js"></script>
+    <script src="./JS/login.js"></script>
+    
+   
+    
+</body>
+</html>  

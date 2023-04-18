@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="icon" href="./img/galery/fabicon.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body class="body-cart">
+    
+        <header class="header">
+            <h1 class="logo-nav">SucuLindas</h1>
+        </header>
+        <section class="cart">
+        <nav> 
+           <div class="aside"> 
+                <!-- <button class="close-menu" id="close-menu"><i class="bi bi-x"></i></button>
+                    <h1 class="logo-menu">SucuLindas</h1>       -->
+                    <ul class="menu">
+                        <li> <a class="btn-menu btn-return" href="./index.html">
+                            👈 Seguí Comprando</a>
+                        </li>
+
+                        <li> <a class="btn-menu btn-buy active" href="./carrito.html">
+                            🛒</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+                
+            
+        <main class="render-products">
+
+            <div class="container-products">
+
+            
+                
+                <h2 id="title-primary">Carrito</h2>
+               
+                <p id="cart-empty" class="cart-empty">Tu carrito esta vacío 😕</p>
+                                
+                <div id="cart-products" class="cart-products disabled">            
+                            <!-- Renderizo products -->
+                      
+                </div>
+                
+                        <div id="cart-actions" class="cart-actions disabled ">
+                            <!-- disable -->
+                            <div class="cart-actions-left">
+                                <button id="trash" class="trash">Vaciar Carrito</button> 
+                            </div>
+                            
+                            <div class="cart-actions-rigth">
+                                <div class="total">
+                                    <p class="">Total</p>
+                                    <p id="total">$3000</p>
+                                    
+                                </div>
+                                <div>
+                                    <button id="buy" class="buy">Comprar Ahora</button>
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </div> 
+                    <p id="cart-buy" class="cart-buy disabled">Muchas Gracias por tu compra 😃</p>
+           
+          
+        </section> 
+    </main>
+
+   
+        <script src="./JS/cart.js"></script>
+           
+        
+</body>
+</html>
